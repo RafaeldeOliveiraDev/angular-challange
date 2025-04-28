@@ -45,14 +45,65 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 56.25rem;
 }
 
 .container-forms-subtitle{
+    display: flex;
+    justify-content: center;
     font-family: "Montserrat", serif;
+    color: green;
 }
 
 .form{
-    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-input{
+    position: relative;
+}
+
+.container-input input{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.925rem;
+    font-size: 1.1rem;
+    border: 2px solid #00095b;
+}
+
+.container-input input:focus{
+    background-color: #e0e0f8;
+}
+
+.container-input-auto-login{
+    display: flex;
+    justify-content: flex-end;
+    width: 58.125rem;
+    gap: 12.5rem;
+    font-family: "Montserrat", serif;
+    font-size: 19px;
+}
+
+.container-input-auto-login input[type="checkbox"]{
+    border: 2px solid #333;
+    transform: scale(1.5);
+}
+
+.form button{
+    border: 2px solid #00095b;
+    font-family: "Montserrat", serif;
+    border-radius: 10px;
+    padding: 0.925rem;
+    width: 58.125rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #00095b;
+    color: #f6f6f6;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.3;
 }
 
 
